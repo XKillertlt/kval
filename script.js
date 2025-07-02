@@ -48,6 +48,22 @@
             }
             return response.json();
         })
+        .then(data => {
+            images = data;
+            currentImages = [...images];
+            displayGallery(currentImages);
+            displayStats(currentImages);
+        })
+        .catch(error => {
+            console.error('Ошибка загрузки данных:', error);
+            galleryEl.innerHTML = `
+                <div class="error">
+                    Ошибка загрузки данных: ${error.message}<br>
+                    Пожалуйста, попробуйте позже.
+                </div>
+            `;
+        });
+}
 
       images.forEach((image, index) => {
           const card = document.createElement('div');
