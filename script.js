@@ -86,7 +86,6 @@
           
           galleryEl.appendChild(card);
       });
-  }
   
   function showImageDetails(image) {
       modalTitleEl.textContent = image.title;
