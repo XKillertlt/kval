@@ -45,9 +45,7 @@ function displayGallery(images) {
         const card = document.createElement('div');
         card.className = 'card';
         card.innerHTML = `
-            <div class="card-id">${image.id}</div>
             <div class="card-img" style="background-image: url(${image.url})">
-                <div class="image-counter">${index + 1} из ${images.length}</div>
             </div>
             <div class="card-content">
                 <h3 class="card-title">${image.title}</h3>
