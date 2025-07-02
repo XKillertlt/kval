@@ -1,0 +1,17 @@
+[
+    {"id": 1, "title": "Закат в горах", "category": "Природа", "rating": 4.8, "url": "https://extraguide.ru/images/t/c588ee433ba743de2e5296810b83f714a3b013ed.jpeg"},
+    {"id": 2, "title": "Ночной мегаполис", "category": "Города", "rating": 4.5, "url": "https://extraguide.ru/images/sp/1fbc956d0a22030e7a01f227c36e9a6b54562914.jpg"},
+    {"id": 3, "title": "Львы на сафари", "category": "Животные", "rating": 4.9, "url": "https://best-of-africa.ru/wp-content/uploads/2019/10/160872279-56a3753d3df78cf7727d7553.jpg"},
+    {"id": 4, "title": "Старинный замок", "category": "Архитектура", "rating": 4.3, "url": "https://cdn.tripster.ru/thumbs2/d585d492-e337-11ee-b42f-329a183c3a55.1220x600.jpeg"},
+    {"id": 5, "title": "Лесной водопад", "category": "Природа", "rating": 4.7, "url": "https://nunataka.ru/wp-content/uploads/2017/10/lesnoj-vodopad-3.jpg"},
+    {"id": 6, "title": "Парижское кафе", "category": "Еда", "rating": 4.2, "url": "https://artnow.ru/img/1429000/1429324.jpg"},
+    {"id": 7, "title": "Морские волны", "category": "Природа", "rating": 4.6, "url": "https://hoteisea.ru/wp-content/uploads/2019/11/Morskaya-volna.jpg"},
+    {"id": 8, "title": "Современный мост", "category": "Архитектура", "rating": 4.4, "url": "https://robb.report/upload/img_cache/7b5/7b56c71eb15742883d40442ac837a44d_cropped_666x443.jpg"},
+    {"id": 9, "title": "Тропический лес", "category": "Природа", "rating": 4.9, "url": "https://www.forestprotection.com/images/yagmur-ormani-nedir.jpg"},
+    {"id": 10, "title": "Пингвины в Антарктике", "category": "Животные", "rating": 4.7, "url": "https://goarctic.ru/upload/iblock/b99/b9942efdfca335c089b761cf1f9335e5.jpg"},
+    {"id": 11, "title": "Итальянская пицца", "category": "Еда", "rating": 4.1, "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrHqTxpJsC648yRGVKyRJLYLr-uUE9S6ul9A&s"},
+    {"id": 12, "title": "Горнолыжный курорт", "category": "Города", "rating": 4.0, "url": "https://sport-marafon.ru/upload/iblock/7ec/1904-001.jpg"},
+    {"id": 13, "title": "Пустынный пейзаж", "category": "Природа", "rating": 4.3, "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVW4veqOonecKy__rj0JfKCfemEAf_tbPTMQ&s"},
+    {"id": 14, "title": "Собор Василия Блаженного", "category": "Архитектура", "rating": 4.8, "url": "https://moskultura.ru/wp-content/uploads/2021/11/hram_vasilia5.jpg"},
+    {"id": 15, "title": "Слоны в саванне", "category": "Животные", "rating": 4.9, "url": "https://cdnn21.img.ria.ru/images/15699/90/156999066_0:0:0:0_650x0_80_0_0_0c12d7055fc536eba2c9eb9fce76f898.jpg"}
+]

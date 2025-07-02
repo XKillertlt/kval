@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интерактивная галерея изображений</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-images"></i> Интерактивная галерея изображений</h1>
+            <p class="subtitle">Фильтруйте изображения по категориям, ищите по названию, сортируйте по рейтингу и просматривайте статистику</p>
+        </header>
+        
+        <div class="controls">
+            <div class="filters">
+                <div class="filter-group">
+                    <label for="category"><i class="fas fa-filter"></i> Категория</label>
+                    <select id="category">
+                        <option value="">Все категории</option>
+                        <option value="Природа">Природа</option>
+                        <option value="Города">Города</option>
+                        <option value="Животные">Животные</option>
+                        <option value="Архитектура">Архитектура</option>
+                        <option value="Еда">Еда</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="search"><i class="fas fa-search"></i> Поиск по названию</label>
+                    <input type="text" id="search" placeholder="Введите название...">
+                </div>
+            </div>
+            
+            <button id="apply-filter" class="btn">
+                <i class="fas fa-check-circle"></i> Применить фильтр
+            </button>
+            
+            <div class="stats">
+                <div class="stat-item">
+                    <div><i class="fas fa-image"></i> Всего изображений</div>
+                    <div id="total-images" class="stat-value">0</div>
+                </div>
+                <div class="stat-item">
+                    <div><i class="fas fa-star"></i> Средний рейтинг</div>
+                    <div id="avg-rating" class="stat-value">0.0</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="gallery-header">
+            <h2><i class="fas fa-th-large"></i> Галерея изображений</h2>
+            <div class="sort-controls">
+                <span>Сортировать по рейтингу:</span>
+                <button id="sort-rating">
+                    <i class="fas fa-sort-amount-down-alt"></i> По возрастанию
+                </button>
+            </div>
+        </div>
+        
+        <div id="gallery" class="gallery">
+            <div class="loading">
+                <i class="fas fa-spinner"></i>
+                Загрузка галереи...
+            </div>
+        </div>
+        
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h2 class="modal-title" id="modal-title"></h2>
+                <div class="modal-category" id="modal-category"></div>
+                <div class="modal-rating" id="modal-rating"></div>
+                <div class="modal-url" id="modal-url"></div>
+                <div class="modal-img" id="modal-img"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
